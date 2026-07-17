@@ -5,6 +5,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { AnimatePresence, motion } from 'motion/react';
+import { Analytics } from '@vercel/analytics/react';
 import { PillarCategory } from './types';
 
 // Components & Pages
@@ -129,6 +130,9 @@ export default function App() {
 
       {/* Consent Banner overlay */}
       <CookieConsent onNavigate={navigate} />
+
+      {/* Vercel Web Analytics */}
+      <Analytics />
 
     </div>
   );
