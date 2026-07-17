@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Wings \u0026 Wallet",
+  "description": "Multi-pillar aviation, travel careers, and flight deals publication focused on Africa-Europe diaspora travel corridors.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
